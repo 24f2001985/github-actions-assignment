@@ -1,0 +1,15 @@
+name: Assignment GitHub Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  assignment-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 24f2001985@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
+      - name: Show completion message
+        run: echo "GitHub Action completed successfully."
